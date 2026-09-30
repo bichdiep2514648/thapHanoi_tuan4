@@ -1,4 +1,15 @@
 # thapHanoi_tuan4
+## Algorithm explanation
+
+- In order to move n disks from Org rod to Des rod, possibly using Mid rod:
+ - Base case : n = 1
+     - Move disk 1 from Org rod to Des rod
+ - For n > 1 :
+     - Move n-1 disk(s) from  Org rod to Mid rod
+     - Move disk n from Org rod to Des rod
+     - Move n-1 disk(s) from Mid rod to Des rod
+## Test Case
+   
 > Disk are numbered from the top to the bottom
 ### Test case 1
 > input : n=
